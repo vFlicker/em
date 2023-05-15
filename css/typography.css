@@ -1,10 +1,9 @@
 html {
   font-family: var(--main-font);
-  font-size: 62.5%; /* 10px */
 }
 
 body {
-  font-size: 1.5rem;
+  font-size: 15px;
   line-height: 1.2;
 }
 
@@ -15,13 +14,19 @@ button {
 }
 
 h1, h2 {
-  font-size: 5.3rem;
+  font-size: 53px;
 }
 
 h3 {
-  font-size: 3.8rem;
+  font-size: 38px;
 }
 
 h4 {
-  font-size: 2.6rem;
+  font-size: 26px;
+}
+
+@media (max-width: 575px) {
+  h1, h2 {
+    font-size: 28px;
+  }
 }
