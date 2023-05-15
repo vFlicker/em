@@ -1,0 +1,29 @@
+.home {
+  margin-bottom: 80px;
+}
+
+.home__motto {
+  font-size: 2.4rem;
+}
+
+.home__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.quizzes__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.quizzes__button {
+  width: 360px;
+  color: #ffffff;
+  background-color: #1f477d;
+}
+
+.quizzes__button:hover {
+  color: #ffffff;
+  background-color: #244d83;
+}
